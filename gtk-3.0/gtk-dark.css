@@ -16,7 +16,7 @@
 
 .background {
   color: #ccc;
-  background-color: #111;}
+  background-color: #111; }
 
 *:disabled {
   -gtk-icon-effect: dim; }
@@ -41,8 +41,8 @@
 .view text,
 iconview text,
 textview text {
-  color: #DADADA;
-  background-color: #333; }
+  color: #ccc;
+  background-color: #222; }
   .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus,
   .view text:selected,
   iconview text:selected,
@@ -787,16 +787,16 @@ actionbar {
   background-color: #303030; }
 
 headerbar,
-.titlebar:not(headerbar) { /*Adjust: Headerbar*/
+.titlebar:not(headerbar) { /*Adjust:Headerbar*/
   min-height: 46px;
   padding: 0 6px;
   border-width: 0 0 1px;
   border-style: solid;
   border-radius: 0;
   border-color: #212121;
-  color: rgba(255, 255, 255, 0.87);
+  color: #ccc;
   background-color: black;
-  box-shadow: inset 0 1px #373737; }
+  box-shadow: inset 0 1px #444; }
   .csd headerbar, .csd .titlebar:not(headerbar) {
     background-color: #2b2b2b;
     border-color: #212121; }
@@ -1490,12 +1490,12 @@ menu,
   margin: 4px;
   padding: 0;
   border-radius: 0;
-  background-color: black; /*Adjust: Right click menu*/
+  background-color: black; /*Adjust:Right click menu*/
   border: 1px solid #292929; }
   .csd menu, .csd .menu {
     padding: 4px 0px;
-    border-radius: 2px; /*Adjust: Right click menu*/
-    border: solid 1px #333; /*Adjust: Right click menu*/}
+    border-radius: 2px; /*Adjust:Right click menu*/
+    border: solid 1px #333; /*Adjust:Right click menu*/}
   menu separator, .csd menu separator,
   .menu separator, .csd .menu separator {
     margin: 2px 0;
@@ -1775,7 +1775,7 @@ scrollbar {
     background-clip: padding-box;
     background-color: #666; }
     scrollbar slider:hover {
-      background-color: rgba(105, 105, 105, 0.961); }
+      background-color: #999; }
     scrollbar slider:hover:active {
       background-color: #0c75de; }
     scrollbar slider:disabled {
@@ -2377,7 +2377,7 @@ separator {
   min-height: 1px; }
 
 list {
-  background-color: #404040;
+  background-color: #222;
   border-color: #292929; }
   list row {
     padding: 2px; }
@@ -3233,8 +3233,8 @@ NautilusListView .view, NautilusListView iconview {
     .nemo-window .sidebar .frame {
       border: none; }
     .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar row {
-      background-color: #222; /*Adjust:Sidebar*/
-      color: rgba(255, 255, 255, 0.87); }
+      background-color: black; /*Adjust:Sidebar*/
+      color: #ccc; }
       .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar row.cell:selected {
         background-color: #0c75de;
         color: #ffffff; }
