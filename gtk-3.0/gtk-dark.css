@@ -252,7 +252,7 @@ button {
   color: rgba(255, 255, 255, 0.87);
   outline-color: rgba(255, 255, 255, 0.17);
   border-color: #292929;
-  background-color: #454545; }
+  background-color: #222; } /*Adjust:Button color*/
   button separator {
     margin: 4px 1px; }
   button.sidebar-button, button.flat {
@@ -269,7 +269,7 @@ button {
     color: rgba(255, 255, 255, 0.87);
     outline-color: rgba(255, 255, 255, 0.17);
     border-color: #292929;
-    background-color: #525252;
+    background-color: black; /*Adjust:Button hover color*/
     -gtk-icon-effect: highlight; }
   button:active, button:checked {
     color: rgba(255, 255, 255, 0.87);
